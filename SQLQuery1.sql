@@ -1,0 +1,4 @@
+CREATE DATABASE HealthcareDB;
+GO
+USE HealthcareDB;
+GO

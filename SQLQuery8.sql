@@ -1,0 +1,9 @@
+CREATE FUNCTION fn_GetTotalStock (@MedID INT)
+RETURNS INT
+AS
+BEGIN
+    DECLARE @TotalQty INT;
+    SELECT @TotalQty = ISNULL(SUM(Quantity), 0) FROM INVENTORY WHERE MedicineID = @MedID;
+    RETURN @TotalQty;
+END;
+GO
