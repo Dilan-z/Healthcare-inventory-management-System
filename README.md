@@ -1,4 +1,4 @@
-# 🏥 MedCore Enterprise - Healthcare Management System
+# 🏥 Healthcare & inventory Management System
 
 A web-based healthcare management system built with **Python Streamlit** and **Microsoft SQL Server** to streamline hospital operations.
 
